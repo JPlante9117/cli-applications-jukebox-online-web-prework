@@ -30,6 +30,7 @@ def play(songs)
   input = get_user_input
   output = ""
   
+  if input.to_i >= 1 && input.to_i <= songs.length
   songs.each_with_index do |info, index|
     if input == (index + 1).to_s || input == info
       puts output = "Playing #{info}"
