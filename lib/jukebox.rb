@@ -50,8 +50,10 @@ end
 
 def run(songs)
   puts "Please enter a command:"
-  exit_jukebox
+  
   
   get_user_input
 
+
+exit_jukebox
 end
