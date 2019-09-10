@@ -44,7 +44,7 @@ def list(songs)
   end
 end
 
-def exit_jukebox
+def exit
   puts "Goodbye"
 end
 
