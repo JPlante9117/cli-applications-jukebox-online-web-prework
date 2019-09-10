@@ -52,8 +52,12 @@ def run(songs)
   puts "Please enter a command:"
   
   
-  get_user_input
+  input = get_user_input
 
-
-exit_jukebox
+  
+  if input == "exit" 
+    exit_jukebox
+  elsif input == "help"
+    help
+  end
 end
