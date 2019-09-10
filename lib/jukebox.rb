@@ -31,6 +31,10 @@ def play(songs)
   output = ""
   
   if input.to_i >= 1 && input.to_i <= songs.length
+    puts "Playing #{songs.[input.to_i - 1]}"
+  
+  
+  =begin
   songs.each_with_index do |info, index|
     if input == (index + 1).to_s || input == info
       puts output = "Playing #{info}"
@@ -38,7 +42,7 @@ def play(songs)
       puts "Invalid input, please try again"
     end
   end
-  
+  =end
   
 end
 
