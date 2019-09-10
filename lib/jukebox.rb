@@ -34,15 +34,15 @@ def play(songs)
     puts "Playing #{songs.[input.to_i - 1]}"
   
   
-  =begin
-  songs.each_with_index do |info, index|
-    if input == (index + 1).to_s || input == info
-      puts output = "Playing #{info}"
-    else
-      puts "Invalid input, please try again"
-    end
-  end
-  =end
+  # =begin
+  # songs.each_with_index do |info, index|
+  #   if input == (index + 1).to_s || input == info
+  #     puts output = "Playing #{info}"
+  #   else
+  #     puts "Invalid input, please try again"
+  #   end
+  # end
+  # =end
   
 end
 
