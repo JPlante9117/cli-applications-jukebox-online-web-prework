@@ -38,7 +38,7 @@ def play(songs)
   end
 end
 
-def list 
+def list(songs)
   songs.each_with_index do |info, index|
     puts (index + 1).to_s + ". " + info
   end
